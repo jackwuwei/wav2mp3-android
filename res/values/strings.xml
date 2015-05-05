@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">wav2mp3</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_button_start">Start</string>
+    <string name="title_button_stop">Stop</string>
+    <string name="title_textview_info">Convert \&quot;%1$s\&quot; to \&quot;%2$s\&quot;</string>
+    <string name="pref_title_bitrate">Bitrate</string>
+    <string name="pref_title_sample_rate">Sample Rate</string>
+    <string name="pref_title_vbr">VBR</string>
+
+</resources>

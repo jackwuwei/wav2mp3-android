@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+    <EditTextPreference android:defaultValue="128" android:inputType="number" android:title="@string/pref_title_bitrate" android:key="bitrate"/>
+    <EditTextPreference android:defaultValue="44100" android:inputType="number" android:title="@string/pref_title_sample_rate" android:key="sample_rate"/>
+    <CheckBoxPreference android:title="@string/pref_title_vbr" android:defaultValue="false" android:key="is_vbr"/>
+    
+
+</PreferenceScreen>
