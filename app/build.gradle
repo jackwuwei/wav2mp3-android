@@ -22,7 +22,7 @@ android {
     }
     externalNativeBuild {
         ndkBuild {
-            path '../../../../../Volumes/Data/workspace/wav2mp3-android/jni/Android.mk'
+            path 'src/main/jni/Android.mk'
         }
     }
 }

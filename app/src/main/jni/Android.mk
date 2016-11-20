@@ -6,6 +6,8 @@ LOCAL_MODULE    := lame
 LOCAL_C_INCLUDES += $(LOCAL_PATH)/include \
 	$(LOCAL_PATH)/frontend
 
+LOCAL_CFLAGS += -DSTDC_HEADERS
+
 LOCAL_SRC_FILES := libmp3lame/bitstream.c \
 	libmp3lame/fft.c \
 	libmp3lame/id3tag.c \

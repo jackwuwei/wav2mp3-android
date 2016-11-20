@@ -1,13 +1,13 @@
-Executable : /Volumes/Data/android/android-ndk-r9/ndk-build
+Executable : /Volumes/Data/android/android-sdk-macosx/ndk-bundle/ndk-build
 arguments : 
 NDK_PROJECT_PATH=null
-APP_BUILD_SCRIPT=/Volumes/Data/workspace/wav2mp3-android/jni/Android.mk
+APP_BUILD_SCRIPT=/Volumes/Data/workspace/wav2mp3-android/app/src/main/jni/Android.mk
 APP_ABI=armeabi
 NDK_ALL_ABIS=armeabi
 NDEBUG=1
 APP_PLATFORM=android-9
-NDK_OUT=/Users/jack_wuwei/AndroidStudioProjects/wav2mp3-android/app/build/intermediates/ndkBuild/debug/obj
-NDK_LIBS_OUT=/Users/jack_wuwei/AndroidStudioProjects/wav2mp3-android/app/build/intermediates/ndkBuild/debug/lib
+NDK_OUT=/Volumes/Data/workspace/wav2mp3-android/app/build/intermediates/ndkBuild/debug/obj
+NDK_LIBS_OUT=/Volumes/Data/workspace/wav2mp3-android/app/build/intermediates/ndkBuild/debug/lib
 APP_SHORT_COMMANDS=false
 LOCAL_SHORT_COMMANDS=false
 -n
