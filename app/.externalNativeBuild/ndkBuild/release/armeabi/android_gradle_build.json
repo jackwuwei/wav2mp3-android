@@ -1,0 +1,112 @@
+{
+  "buildFiles": [
+    "/Volumes/Data/workspace/wav2mp3-android/jni/Android.mk"
+  ],
+  "cleanCommands": [
+    "/Volumes/Data/android/android-ndk-r9/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Volumes/Data/workspace/wav2mp3-android/jni/Android.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDEBUG\u003d0 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/Users/jack_wuwei/AndroidStudioProjects/wav2mp3-android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/jack_wuwei/AndroidStudioProjects/wav2mp3-android/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "lame-release-armeabi": {
+      "buildCommand": "/Volumes/Data/android/android-ndk-r9/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Volumes/Data/workspace/wav2mp3-android/jni/Android.mk APP_ABI\u003darmeabi NDK_ALL_ABIS\u003darmeabi NDEBUG\u003d0 APP_PLATFORM\u003dandroid-9 NDK_OUT\u003d/Users/jack_wuwei/AndroidStudioProjects/wav2mp3-android/app/build/intermediates/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/jack_wuwei/AndroidStudioProjects/wav2mp3-android/app/build/intermediates/ndkBuild/release/lib /Users/jack_wuwei/AndroidStudioProjects/wav2mp3-android/app/build/intermediates/ndkBuild/release/obj/local/armeabi/liblame.so",
+      "toolchain": "toolchain-armeabi",
+      "abi": "armeabi",
+      "artifactName": "lame",
+      "files": [
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/lamejni.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/VbrTag.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/bitstream.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/encoder.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/fft.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/gain_analysis.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/id3tag.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/lame.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/mpglib_interface.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/newmdct.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/presets.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/psymodel.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/quantize.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/quantize_pvt.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/reservoir.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/set_get.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/tables.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/takehiro.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/util.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/vbrquantize.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        },
+        {
+          "src": "/Volumes/Data/workspace/wav2mp3-android/jni/libmp3lame/version.c",
+          "flags": "\"-fpic\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector\" \"-no-canonical-prefixes\" \"-march\u003darmv5te\" \"-mtune\u003dxscale\" \"-msoft-float\" \"-mthumb\" \"-Os\" \"-g\" \"-DNDEBUG\" \"-fomit-frame-pointer\" \"-fno-strict-aliasing\" \"-finline-limit\u003d64\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/include\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni/frontend\" \"-I/Volumes/Data/workspace/wav2mp3-android/jni\" \"-DANDROID\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-I/Volumes/Data/android/android-ndk-r9/platforms/android-9/arch-arm/usr/include\""
+        }
+      ],
+      "output": "/Users/jack_wuwei/AndroidStudioProjects/wav2mp3-android/app/build/intermediates/ndkBuild/release/obj/local/armeabi/liblame.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-armeabi": {
+      "cCompilerExecutable": "/Volumes/Data/android/android-ndk-r9/toolchains/arm-linux-androideabi-4.6/prebuilt/darwin-x86_64/bin/arm-linux-androideabi-gcc"
+    }
+  },
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": []
+}
